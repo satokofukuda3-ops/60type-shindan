@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>60タイプ診断</title>
+  <title>さかなは診断</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -437,7 +437,7 @@
   <div id="auth-screen">
     <header>
       <p class="header-eyebrow">Character Analysis</p>
-      <h1>60タイプ診断</h1>
+      <h1>さかなは診断</h1>
       <p class="header-sub">六十干支による性格・資質の鑑定</p>
       <div class="header-rule"></div>
     </header>
@@ -459,7 +459,7 @@
 
   <header>
     <p class="header-eyebrow">Character Analysis</p>
-    <h1>60タイプ診断</h1>
+    <h1>さかなは診断</h1>
     <p class="header-sub">六十干支による性格・資質の鑑定</p>
     <div class="header-rule"></div>
   </header>
@@ -516,13 +516,13 @@
     </div>
   </div>
 
-  <footer>&copy; 60タイプ診断</footer>
+  <footer>&copy; さかなは診断</footer>
 
   </div><!-- /#app -->
 
   <script>
     // ── パスワード設定（変更はここだけ）──
-    const PASSWORD = "1234";
+    const PASSWORD = "9981";
 
     function authenticate() {
       const input = document.getElementById("password-input").value;
@@ -554,66 +554,66 @@
     });
 
     const TYPES = [
-      { kanshi: "甲子",  trait: "俊敏", element: "大樹", code: "H3"      },
+      { kanshi: "甲子",  trait: "俊敏", element: "大樹", code: "VH3"      },
       { kanshi: "乙丑",  trait: "実績", element: "草花", code: "PFC4"    },
-      { kanshi: "丙寅",  trait: "実践", element: "太陽", code: "H4"      },
-      { kanshi: "丁卯",  trait: "理想", element: "灯火", code: "C8"      },
+      { kanshi: "丙寅",  trait: "実践", element: "太陽", code: "LH4"      },
+      { kanshi: "丁卯",  trait: "理想", element: "灯火", code: "LC8"      },
       { kanshi: "戊辰",  trait: "先端", element: "山岳", code: "PPH8★"   },
-      { kanshi: "己巳",  trait: "堅実", element: "大地", code: "C10★"    },
-      { kanshi: "庚午",  trait: "俊敏", element: "鉱脈", code: "H1"      },
+      { kanshi: "己巳",  trait: "堅実", element: "大地", code: "LC10★"   },
+      { kanshi: "庚午",  trait: "俊敏", element: "鉱脈", code: "VH1"      },
       { kanshi: "辛未",  trait: "実績", element: "宝石", code: "PFC4"    },
-      { kanshi: "壬申",  trait: "実践", element: "海洋", code: "H7"      },
-      { kanshi: "癸酉",  trait: "理想", element: "雨露", code: "C9"      },
+      { kanshi: "壬申",  trait: "実践", element: "海洋", code: "LH7"      },
+      { kanshi: "癸酉",  trait: "理想", element: "雨露", code: "LC9"      },
       { kanshi: "甲戌",  trait: "安全", element: "大樹", code: "PFH5"    },
-      { kanshi: "乙亥",  trait: "努力", element: "草花", code: "C2"      },
-      { kanshi: "丙子",  trait: "独創", element: "太陽", code: "H6"      },
+      { kanshi: "乙亥",  trait: "努力", element: "草花", code: "VC2"      },
+      { kanshi: "丙子",  trait: "独創", element: "太陽", code: "LH6"      },
       { kanshi: "丁丑",  trait: "追及", element: "灯火", code: "PPC7"    },
-      { kanshi: "戊寅",  trait: "実践", element: "山岳", code: "H7"      },
-      { kanshi: "己卯",  trait: "理想", element: "大地", code: "C10"     },
+      { kanshi: "戊寅",  trait: "実践", element: "山岳", code: "LH7"      },
+      { kanshi: "己卯",  trait: "理想", element: "大地", code: "LC10"     },
       { kanshi: "庚辰",  trait: "安全", element: "鉱脈", code: "PFH3"    },
-      { kanshi: "辛巳",  trait: "努力", element: "宝石", code: "C"       },
-      { kanshi: "壬午",  trait: "独創", element: "海洋", code: "H7"      },
+      { kanshi: "辛巳",  trait: "努力", element: "宝石", code: "VC"       },
+      { kanshi: "壬午",  trait: "独創", element: "海洋", code: "LH7"      },
       { kanshi: "癸未",  trait: "追及", element: "雨露", code: "PPC8"    },
-      { kanshi: "甲申",  trait: "感性", element: "大樹", code: "H3"      },
-      { kanshi: "乙酉",  trait: "感性", element: "草花", code: "H2"      },
+      { kanshi: "甲申",  trait: "感性", element: "大樹", code: "VH3"      },
+      { kanshi: "乙酉",  trait: "感性", element: "草花", code: "VH2"      },
       { kanshi: "丙戌",  trait: "追及", element: "太陽", code: "PPC6"    },
-      { kanshi: "丁亥",  trait: "独創", element: "灯火", code: "H7"      },
-      { kanshi: "戊子",  trait: "独創", element: "山岳", code: "H8"      },
+      { kanshi: "丁亥",  trait: "独創", element: "灯火", code: "LH7"      },
+      { kanshi: "戊子",  trait: "独創", element: "山岳", code: "LH8"      },
       { kanshi: "己丑",  trait: "追及", element: "大地", code: "PPC9"    },
-      { kanshi: "庚寅",  trait: "感性", element: "鉱脈", code: "H1"      },
-      { kanshi: "辛卯",  trait: "感性", element: "宝石", code: "H2"      },
+      { kanshi: "庚寅",  trait: "感性", element: "鉱脈", code: "VH1"      },
+      { kanshi: "辛卯",  trait: "感性", element: "宝石", code: "VH2"      },
       { kanshi: "壬辰",  trait: "追及", element: "海洋", code: "PPC7"    },
-      { kanshi: "癸巳",  trait: "独創", element: "雨露", code: "H10"     },
-      { kanshi: "甲午",  trait: "努力", element: "大樹", code: "C3"      },
+      { kanshi: "癸巳",  trait: "独創", element: "雨露", code: "LH10"     },
+      { kanshi: "甲午",  trait: "努力", element: "大樹", code: "VC3"      },
       { kanshi: "乙未",  trait: "安全", element: "草花", code: "PFH4"    },
-      { kanshi: "丙申",  trait: "理想", element: "太陽", code: "C7"      },
-      { kanshi: "丁酉",  trait: "実践", element: "灯火", code: "H5"      },
+      { kanshi: "丙申",  trait: "理想", element: "太陽", code: "LC7"      },
+      { kanshi: "丁酉",  trait: "実践", element: "灯火", code: "LH5"      },
       { kanshi: "戊戌",  trait: "追及", element: "山岳", code: "PPC8"    },
-      { kanshi: "己亥",  trait: "独創", element: "大地", code: "H10"     },
-      { kanshi: "庚子",  trait: "努力", element: "鉱脈", code: "C1"      },
+      { kanshi: "己亥",  trait: "独創", element: "大地", code: "LH10"     },
+      { kanshi: "庚子",  trait: "努力", element: "鉱脈", code: "VC1"      },
       { kanshi: "辛丑",  trait: "安全", element: "宝石", code: "PFH4"    },
-      { kanshi: "壬寅",  trait: "理想", element: "海洋", code: "C8"      },
-      { kanshi: "癸卯",  trait: "実践", element: "雨露", code: "H8"      },
+      { kanshi: "壬寅",  trait: "理想", element: "海洋", code: "LC8"      },
+      { kanshi: "癸卯",  trait: "実践", element: "雨露", code: "LH8"      },
       { kanshi: "甲辰",  trait: "実績", element: "大樹", code: "PFC5"    },
-      { kanshi: "乙巳",  trait: "俊敏", element: "草花", code: "H2"      },
-      { kanshi: "丙午",  trait: "堅実", element: "太陽", code: "C7★"     },
+      { kanshi: "乙巳",  trait: "俊敏", element: "草花", code: "VH2"      },
+      { kanshi: "丙午",  trait: "堅実", element: "太陽", code: "LC7★"     },
       { kanshi: "丁未",  trait: "先端", element: "灯火", code: "PPH6★"   },
-      { kanshi: "戊申",  trait: "理想", element: "山岳", code: "C9"      },
-      { kanshi: "己酉",  trait: "実践", element: "大地", code: "H8"      },
+      { kanshi: "戊申",  trait: "理想", element: "山岳", code: "LC9"      },
+      { kanshi: "己酉",  trait: "実践", element: "大地", code: "LH8"      },
       { kanshi: "庚戌",  trait: "実績", element: "鉱脈", code: "PFC3"    },
-      { kanshi: "辛亥",  trait: "俊敏", element: "宝石", code: "H2"      },
-      { kanshi: "壬子",  trait: "堅実", element: "海洋", code: "C8★"     },
+      { kanshi: "辛亥",  trait: "俊敏", element: "宝石", code: "VH2"      },
+      { kanshi: "壬子",  trait: "堅実", element: "海洋", code: "LC8★"     },
       { kanshi: "癸丑",  trait: "先端", element: "雨露", code: "PPH8★"   },
-      { kanshi: "甲寅",  trait: "完璧", element: "大樹", code: "C5★"     },
-      { kanshi: "乙卯",  trait: "完璧", element: "草花", code: "C4★"     },
+      { kanshi: "甲寅",  trait: "完璧", element: "大樹", code: "VC5★"     },
+      { kanshi: "乙卯",  trait: "完璧", element: "草花", code: "VC4★"     },
       { kanshi: "丙辰",  trait: "先端", element: "太陽", code: "PPH5★"   },
-      { kanshi: "丁巳",  trait: "堅実", element: "灯火", code: "C8★"     },
-      { kanshi: "戊午",  trait: "堅実", element: "山岳", code: "C9★"     },
+      { kanshi: "丁巳",  trait: "堅実", element: "灯火", code: "LC8★"     },
+      { kanshi: "戊午",  trait: "堅実", element: "山岳", code: "LC9★"     },
       { kanshi: "己未",  trait: "先端", element: "大地", code: "PPH9★"   },
-      { kanshi: "庚申",  trait: "完璧", element: "鉱脈", code: "C3★"     },
-      { kanshi: "辛酉",  trait: "完璧", element: "宝石", code: "C4★"     },
+      { kanshi: "庚申",  trait: "完璧", element: "鉱脈", code: "VC3★"     },
+      { kanshi: "辛酉",  trait: "完璧", element: "宝石", code: "VC4★"     },
       { kanshi: "壬戌",  trait: "先端", element: "海洋", code: "PPH6★"   },
-      { kanshi: "癸亥",  trait: "堅実", element: "雨露", code: "C10★"    },
+      { kanshi: "癸亥",  trait: "堅実", element: "雨露", code: "LC10★"   },
     ];
 
     // Populate selects
